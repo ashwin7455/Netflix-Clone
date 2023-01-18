@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-size: 12px; */
+    font-family: noppins,sans-serif;
+}
+body{
+    background-color: #0000;
+    color:#fff
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 3.5em 2em 3.5em;
+
+}
+.logo{
+    width: 170px;
+    height:50px;
+    cursor: pointer;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7)), url(images/header-image.png);
+
+}
+.side{
+    display: flex;
+   padding: 1em;
+}
+nav .language{
+    background-color: transparent;
+    padding: .5em 1em .5em 1em;
+    font-size: 16px;
+    color: #fff;
+    border: 2px soild white;
+    margin-right: 1em;
+
+}
+nav button{
+    background-color: #db0001;
+    padding: .7em 1em .7em 1em;
+    font-size: 16px;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+}
+.content{
+    position: absolute;
+    top: 60%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+    max-width: 650px;
+    text-align: center;
+    padding: 4em;
+    /* justify-content: center; */
+}
+.content h1{
+    font-size: 4vmax;
+}
+.content p{
+    font-size: 2vmax;
+    padding: 0.2em 1em 1em 1em;
+}
+.form{
+   display: flex;
+}
+.form input{
+    border-radius: 4px;
+    padding: 0em 2em 0em 0em;     
+    font-size: 2vmax;       
+    align-items: center;
+    border: 0;
+}
+.form button{
+    background-color: #db0001;
+    padding: .5em .5em  .5em .5em;
+    font-size: 2vmax;
+    color: #fff;
+    border: 0;
+    
+}
+.break{
+    height: 1vh;
+    width: 100%;
+    background-color: rgb(49, 48, 48);
+}
+.enjoy{
+    height: 70vh;
+    width: 100%;   
+    background-color:black
+}
+
+section .box{
+    display: flex;
+    padding: 4em 6em 4em 9em;
+}
+
+section h1{
+   font-size: 3.5vmax;
+}
+section p{
+font-size: 1.8vmax;
+padding:.6em 1em 0em 0em;
+}
+section .box1{
+    padding:7.3em 5em 0em 2em;
+}
+section .box2{
+    
+}
+section img{
+    width:35vw
+}
+@media screen and (max-width:550px) {
+    .logo{
+        width: 140px;
+        cursor: pointer;
+    }
+    .side{
+        display: flex;
+       padding: 0;
+       
+    }
+    nav{
+        padding: 1em ;
+    }
+    nav .language{
+        padding: .5em ;
+        margin-right:.5em;
+       
+    }
+    nav button{
+        padding: .5em ;
+    }
+    .content{
+        padding: 0;
+        top: 30%;
+        left: 40%;
+        transform: translate(-40%,-40%);
+    }
+    .content h1{
+        font-size: 4.5vmax;
+        padding: 0;
+    }
+    .content p{
+        font-size: 2.5vmax;
+        padding:.2em;
+        margin-bottom: 4px;
+    }
+    header{
+        height: 70vh;
+    }
+    .enjoy{
+        height: 70vh;
+        width: 100%;   
+        background-color:black
+    }
+    
+    section .box{
+        display: flex;
+        flex-direction: column;
+        padding: 2em;
+    }
+    
+    section h1{
+       font-size: 3.5vmax;
+       text-align: center;
+    }
+    section p{
+    font-size: 2vmax;
+    text-align: center;
+    /* margin-top: .8em; */
+    padding:1em 1em 0 1em;
+    }
+    section .box1{
+        padding: 1em
+    }
+    section .box2{
+        padding: 0em;
+    }
+    section img{
+        width:80vw;
+        margin-left: 8px;
+    }
+}

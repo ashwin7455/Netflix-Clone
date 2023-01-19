@@ -3,7 +3,9 @@
     padding: 0;
     /* font-size: 12px; */
     font-family: noppins,sans-serif; 
-  overflow-x: auto;
+  /* overflow-x: auto; */
+  /* width: 5; */
+  box-sizing: border-box;
     
 }
 body{
@@ -57,7 +59,7 @@ nav button{
     
     max-width: 650px;
     text-align: center;
-    padding: 4em;
+    padding: 4em 0 0 0 ;
     /* justify-content: center; */
 }
 .content h1{
@@ -72,14 +74,14 @@ nav button{
 }
 .form input{
     border-radius: 4px;
-    padding: 0em 2em 0em 0em;     
+    padding: 0em 6em 0em 0em;     
     font-size: 2vmax;       
     align-items: center;
     border: 0;
 }
 .form button{
     background-color: #db0001;
-    padding: .5em .5em  .5em .5em;
+    padding: 0em .5em  0em .5em;
     font-size: 2vmax;
     color: #fff;
     border: 0;
@@ -128,17 +130,18 @@ section img{
 
 .big{
     text-align: center;
-    padding: 3em;
+    padding: 1em;
 }
 .six{
-    height: 4vh;
+    height: 3vh;
     background-color: rgb(71, 70, 70);
-    margin: 1em 0 0 15.5em;
-    padding: .7em;
+    margin: .5em 0 0 15.5em;
+    padding: 1em 0em 2em 1em ;
     width: 50%;
     font-size: 1.5em;
     /* margin-left: 23em; */
 }
+
 .form2 input{
     border-radius: 4px;
     padding: .5em 5em .5em .5em;
@@ -155,7 +158,7 @@ section img{
     border: 0;
 }
 footer{
-    padding: 1.5em;
+    padding: 2em;
     width:100%;
     width: 100%;   
     background-color:black;
